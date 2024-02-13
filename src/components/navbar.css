@@ -1,0 +1,154 @@
+.head_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    position:absolute;
+    border-bottom: 0.5px solid rgb(113, 111, 111);
+
+}
+.app__navbar{
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    padding:01rem 0rem;
+
+  }
+  
+  .app__navbar-logo h1{
+      color:#fff;
+      font-size: 25px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      letter-spacing: 2px;
+  }
+  
+  .app__navbar-links{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+  }
+  
+  .app__navbar-links li{
+      margin:0 1rem;
+      cursor: pointer;
+  }
+  
+  .app__navbar-links li :hover{
+      color:var(--color-primary);
+  }
+
+  .fa :hover{
+    color: var(--color-primary);
+  }
+  
+  .app__navbar-login{
+      display: flex;
+      align-items: center;
+  }
+  
+  .app__navbar-login a{
+      margin: 0 1rem;
+      text-decoration: none;
+      transition:0.5s ease;
+  }
+  
+  .app__navbar-login a:hover{
+      border-bottom: 1px solid var(--color-primary);
+  }
+  
+  .app__navbar-login div{
+      width:1px;
+      background-color: var(--color-grey);
+  }
+  
+  .app__navbar-smallscreen{
+      display: none;
+  }
+  
+  .app__navbar-smallscreen-overlay{
+      position:fixed;
+      top:0;
+      left: 0;
+      width:100%;
+      height:100vh;
+      background-color: var(--color-black);
+      transition: 0.5s ease;
+      flex-direction: column;
+      z-index: 5;
+  }
+  
+  .overlay__open{
+      cursor: pointer;
+  }
+  
+  .app__navbar-smallscreen-overlay .overlay__close{
+      font-size: 27px;
+      color: var(--color-primary);
+      cursor: pointer;
+      position: absolute;
+      top:20px;
+      right: 20px;
+  }
+  
+  .app__navbar-smallscreen_links{
+      list-style:none;
+  }
+  
+  .app__navbar-smallscreen_links li{
+      margin:2rem;
+      cursor: pointer;
+      color:var(--color-golden);
+      font-size: 2rem;
+      text-align: center;
+      font-family: var(--font-base);
+  }
+  
+  .app__navbar-smallscreen_links li:hover{
+      color:var(--color-white);
+  }
+  
+  @media screen and (max-width:2000px){
+      .app__navbar-logo{
+          width:210px;
+      }
+  }
+  @media screen and (max-width:650px){
+    .app__navbar-links{
+        display: none;
+    }
+      .app__navbar{
+          padding: 1rem;
+      }
+  
+      .app__navbar-login{
+          display: none;
+      }
+  
+      .app__navbar-logo {
+        align-items: flex-start;
+      }
+  }
+
+  @media screen and (max-width:1024px){
+    .app__navbar{
+       width: 90%;
+        justify-content: space-between;
+    }
+    .app__navbar-smallscreen{
+        display: flex;
+    }
+    .app__navbar-smallscreen-overlay{
+        background-color: black;
+    }
+    .app__navbar-login{
+        display: none;
+    }
+    .app__navbar-links{
+        display: none;
+    }
+  }

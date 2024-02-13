@@ -1,0 +1,34 @@
+footer{
+    
+    padding:10px 30px;
+    background-color: #2F2F31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: inline-block;
+   
+}
+
+.social a{
+    margin-right: 20px;
+}
+
+.copyright p{
+    color:#fff;
+}
+
+@media screen and (max-width: 650px) {
+    footer{
+        display: block;
+        text-align: center;
+
+    }
+
+    
+    .copyright p{
+        margin-top: 20px;
+    }
+}

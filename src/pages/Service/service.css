@@ -1,0 +1,104 @@
+
+#service{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    background-color: #2F2F31;
+
+}
+#service .head{
+    margin-bottom: 40px;
+}
+.services-item {
+    flex:0 0 250px;
+    padding: 50px 40px;
+    background: #343436;
+    border: 1px solid #2b2b2d;
+    text-align: left;
+    position: relative;
+    transition-duration: .3s;
+    z-index: 1;
+}
+.service-container{
+    width: 60%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items:center ;
+    gap:20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.number-bg {
+    position: absolute;
+    right: 40px;
+    font-size: 60px;
+    top: 50px;
+    color: #484849;
+    z-index: -1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.services-item:hover{
+    -webkit-box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    -o-box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 9;
+    transform: translate(0, -5px);
+    border: 1px solid transparent;
+}
+.icon-services span {
+    font-size: 40px;
+    color: #f3c26b;
+}
+.services-item h4 {
+    margin-bottom: 10px;
+    margin-top: 18px;
+    color: #ececec;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.services-item hr{
+    width: 60px;
+    height:0.3px;
+    margin-left: 0;
+    color:#f3c26b;
+    background: #f3c26b;
+    transition-duration: .3s;
+}
+.services-item:hover hr {
+    width: 100px;
+}
+.services-item  p {
+    margin-bottom: 0px;
+    color: #979595;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1280px) {
+    .service-container{
+        width: 70%;
+
+    }
+}
+@media screen and (max-width: 1024px) {
+    .service-container{
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .service-container{
+        width: 90%;
+        grid-template-columns: 1fr;
+
+    }
+}
