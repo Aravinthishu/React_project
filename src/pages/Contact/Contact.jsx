@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import './contact.css';
 
 const Contact = () => {
@@ -18,20 +19,12 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch('http://127.0.0.1:8000/contact/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-      });
-      
-      if (response.ok) {
-        // Handle successful form submission
+    emailjs.sendForm('service_d5vlpvp', 'template_fl87rs9', e.target, '5ZDonEthaeNa_xSO9')
+      .then((result) => {
+        console.log(result.text);
         setFormMessage('Form submitted successfully');
         setFormData({
           name: '',
@@ -39,14 +32,10 @@ const Contact = () => {
           subject: '',
           message: ''
         });
-      } else {
-        // Handle error
-        setFormMessage('Error submitting form');
-      }
-    } catch (error) {
-      // Handle error
-      setFormMessage('Error: ' + error.message);
-    }
+      }, (error) => {
+        console.error('Error occurred during form submission:', error);
+        setFormMessage('An unexpected error occurred. Please try again later.');
+      });
   };
 
   return (
@@ -54,11 +43,10 @@ const Contact = () => {
       <div className="head">
         <h3>Get In Touch</h3>
         <h2>CONTACT ME</h2>
-        <span className="line2"></span>  
+        <span className="line2"></span>
       </div>
       <div className="overlay"></div>
       <div className="contact-container">
-        
         <div className="row">
           <div className="contact-content-1">
             {/* Contact details */}
@@ -72,7 +60,7 @@ const Contact = () => {
                 <div className="form-group">
                   <input type="text" placeholder="Name" name="name" value={formData.name} onChange={handleChange} />
                 </div>
-              </div>  
+              </div>
               <div className="col-md-12">
                 <div className="form-group">
                   <input type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange} />
@@ -89,7 +77,7 @@ const Contact = () => {
                 </div>
               </div>
               <button type="submit" value="send message" className="btn-one">HIRE ME</button>
-            </form> 
+            </form>
           </div>
         </div>
       </div>
