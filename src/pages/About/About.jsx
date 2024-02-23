@@ -18,6 +18,7 @@ const About = () => {
     </div>
 
     <div class="about-content">
+      
       <span class="line1"></span> <span class="name">I'm Aravinthan</span>
       <h2>I am a proficient web developer specializing in React and Python, currently based in Chennai.</h2>
         <p>
