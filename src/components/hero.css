@@ -1,6 +1,7 @@
 .hero-content{
     align-content: center;
     margin-top: 300px;
+    width: fit-content;
 
 }
 .container_content{
@@ -33,7 +34,7 @@
         text-align: left;
         font-weight: 700; 
         position: relative;
-        line-height: 1.4;
+        line-height: 1;
         font-family: 'Raleway', sans-serif;
     }
     

@@ -1,15 +1,19 @@
-import React from 'react';
+import React from "react";
+
 import './experience.css'; // Ensure that the correct path is used for your styles
 import { MyExperience } from '../../UI/data';
 import cv from '../../images/cv.pdf';
 
 const Experience = () => {
+
+
   return (
     <section id="experience" className="resume">
       <div className="head">
         <h3>Design & Code</h3>
         <h2>EDUCATION & EXPERIENCE</h2>
         <span className="line2"></span>
+
       </div>
 
       <div className="container">

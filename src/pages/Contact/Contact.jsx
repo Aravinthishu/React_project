@@ -41,11 +41,13 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="head">
+
         <h3>Get In Touch</h3>
         <h2>CONTACT ME</h2>
         <span className="line2"></span>
+
       </div>
-      <div className="overlay"></div>
+      <div className="contact_overlay"></div>
       <div className="contact-container">
         <div className="row">
           <div className="contact-content-1">
@@ -77,6 +79,7 @@ const Contact = () => {
                 </div>
               </div>
               <button type="submit" value="send message" className="btn-one">HIRE ME</button>
+              
             </form>
           </div>
         </div>

@@ -1,12 +1,24 @@
-import React from 'react'
-import './about.css'
 
+import './about.css'
+import React, { useEffect, useRef } from "react";
+import { motion, useAnimation, useInView } from "framer-motion";
 //React Icons
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
 const About = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const mainControls = useAnimation();
+
+
+  useEffect(() => {
+    if (isInView){
+      mainControls.start("visible");
+    }
+  }, [isInView]);
   return (
     <section id="about">
     <div class="container_about">
@@ -17,8 +29,16 @@ const About = () => {
      
     </div>
 
-    <div class="about-content">
-      
+    <div ref={ref} class="about-content">
+    <motion.div
+            variants={{
+              hidden: { opacity: 0, y: 75 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            initial="hidden"
+            animate={mainControls}
+            transition={{ duration: 0.5, delay: 0.25 }}
+          >
       <span class="line1"></span> <span class="name">I'm Aravinthan</span>
       <h2>I am a proficient web developer specializing in React and Python, currently based in Chennai.</h2>
         <p>
@@ -44,6 +64,7 @@ const About = () => {
             <li> <a href="https://api.whatsapp.com/send?phone=6369721094" target="_blank" rel="noopener noreferrer" className='p__opensans fa'><FaWhatsapp /></a></li>
           </ul>
         </div>
+        </motion.div>
     </div>
     </div>
    </section>
