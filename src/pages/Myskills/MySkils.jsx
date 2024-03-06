@@ -34,7 +34,7 @@ const MySkils = () => {
              <div class="progress Django"></div>
            </div>
 
-           <h2>Reat</h2>
+           <h2>Bootstrap</h2>
            <div class="full">
              <div class="progress Django"></div>
            </div>
