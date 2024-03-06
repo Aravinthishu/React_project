@@ -60,7 +60,7 @@ export const MyExperience = [
     title: "Web Developer",
     place: "Ec4you Digital Marketing | Chennai",
     date: "July 2023 - Present",
-    info: "Developed and maintained websites with expertise in frontend and backend technologies. Specialized in WordPress, Django, and React for efficient website solutions. Proficient in Figma for design collaboration. Collaborated with teams to deliver high-quality web development projects, ensuring seamless integration of design and functionality.",
+    info: "Developed and maintained websites with expertise in frontend and backend technologies. Specialized in Django,  React and Wordpress for efficient website solutions. Proficient in Figma for design collaboration. Collaborated with teams to deliver high-quality web development projects, ensuring seamless integration of design and functionality.",
     path: "/programs/444",
     image: require("../images/education-1.jpg"),
   },
