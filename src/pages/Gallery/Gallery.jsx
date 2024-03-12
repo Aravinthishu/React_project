@@ -13,7 +13,7 @@ const Gallery = () => {
     "https://link2.com",
     "https://link3.com",
     "https://link4.com",
-    "https://link5.com",
+    "https://gym-frontend-self.vercel.app/",
   ];
 
   const scrollRef = React.useRef(null);
