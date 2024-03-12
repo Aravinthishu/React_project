@@ -32,6 +32,14 @@ const Gallery = () => {
     setSelectedImage(null);
   };
 
+  const imageLinks = [
+  "https://link1.com",
+  "https://link2.com",
+  "https://link3.com",
+  "https://link4.com",
+  "https://link5.com",
+];
+
 
   
   return (
@@ -54,17 +62,17 @@ const Gallery = () => {
         <div className="app__gallery">
           <div className="app__gallery-images">
             <div className="app__gallery-images_container" ref={scrollRef}>
-              {[gallery01, gallery02, gallery03, gallery04, gallery05].map(
-                (image, index) => (
-                  <div
-                    className="app__gallery-images_card flex__center"
-                    key={`gallery_image-${index + 1}`}
-                    onClick={() => handleImageClick(image)}
-                  >
-                    <img src={image} alt={`gallery_image_${index}`} />
-                  </div>
-                )
-              )}
+{[gallery01, gallery02, gallery03, gallery04, gallery05].map((image, index) => (
+  <a
+    key={`gallery_image-${index + 1}`}
+    href={imageLinks[index]} // Use the corresponding link for each image
+    target="_blank" // Open the link in a new tab
+    rel="noopener noreferrer" // Add security attributes
+    className="app__gallery-images_card flex__center"
+  >
+    <img src={image} alt={`gallery_image_${index}`} />
+  </a>
+))}
             </div>
             <div className="app__gallery-images_arrows">
               <BsArrowLeftShort
