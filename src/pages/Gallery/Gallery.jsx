@@ -9,10 +9,10 @@ import "./gallery.css";
 
 const Gallery = () => {
   const imageLinks = [
-    "https://link1.com",
+    "https://aravinthan-portfolio.vercel.app/",
     "https://photography-tawny-mu.vercel.app/portfolio",
-    "https://link3.com",
-    "https://link4.com",
+    "https://aravinthan-portfolio.vercel.app/",
+    "https://aravinthan-portfolio.vercel.app/",
     "https://gym-frontend-self.vercel.app/",
   ];
 
