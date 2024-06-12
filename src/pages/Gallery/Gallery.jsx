@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import gallery01 from "../../images/portfolio_1.png";
-import gallery02 from "../../images/portfolio_2.png";
+import gallery02 from "../../images/MAIN.png";
 import gallery03 from "../../images/portfolio_3.jpg";
 import gallery04 from "../../images/portfolio_4.png";
 import gallery05 from "../../images/portfolio_5.png";
