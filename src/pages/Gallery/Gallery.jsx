@@ -11,8 +11,8 @@ import "./gallery.css";
 const Gallery = () => {
   const imageLinks = [
     "https://gym-frontend-self.vercel.app/",
-    "https://www.figma.com/proto/2Rw7G0PPW0hy8BclM7N5WZ?node-id=0-1&t=Lfk0N2VPlhf6Zywp-6",
     "https://photography-tawny-mu.vercel.app/portfolio",
+    "https://www.figma.com/proto/2Rw7G0PPW0hy8BclM7N5WZ?node-id=0-1&t=Lfk0N2VPlhf6Zywp-6",
     "https://www.figma.com/proto/2Rw7G0PPW0hy8BclM7N5WZ?node-id=0-1&t=Lfk0N2VPlhf6Zywp-6",
     "https://aravinthan-portfolio.vercel.app/",
   ];
@@ -53,7 +53,7 @@ const Gallery = () => {
       <div className="app__gallery">
         <div className="app__gallery-images">
           <div className="app__gallery-images_container" ref={scrollRef}>
-            {[gallery01, gallery02, gallery03, gallery04, gallery05].map(
+            {[gallery05, gallery01, gallery02, gallery03, gallery04, ].map(
               (image, index) => (
                 <a
                   key={`gallery_image-${index + 1}`}
