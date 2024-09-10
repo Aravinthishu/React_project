@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
-import gallery01 from "../../images/Portfolio_7.png";
+import gallery01 from "../../images/Portfolio_7.jpg";
 import gallery02 from "../../images/MAIN.png";
 import gallery03 from "../../images/portfolio_3.jpg";
 import gallery04 from "../../images/portfolio_4.png";
