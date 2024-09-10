@@ -12,7 +12,7 @@ const Gallery = () => {
   const imageLinks = [
     "https://gym-frontend-self.vercel.app/",
     "https://photography-tawny-mu.vercel.app/portfolio",
-    "https://www.figma.com/proto/NETIMBmKGtRF9k1xBWFN8Q?node-id=0-1&t=Lfk0N2VPlhf6Zywp-6",
+    "https://aravinth.pythonanywhere.com/add-expense",
     "https://aravinthan-portfolio.vercel.app/",
     "https://www.figma.com/proto/2Rw7G0PPW0hy8BclM7N5WZ?node-id=0-1&t=Lfk0N2VPlhf6Zywp-6",
 ,
