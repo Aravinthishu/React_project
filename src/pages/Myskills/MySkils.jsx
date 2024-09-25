@@ -25,13 +25,13 @@ const MySkils = () => {
 
            <h2>Django</h2>
            <div class="full">
-             <div class="progress python"></div>
+             <div class="progress Django"></div>
            </div>
           
 
            <h2>MongoDB</h2>
            <div class="full">
-             <div class="progress Django"></div>
+             <div class="progress mongodb"></div>
            </div>
 
            <h2>RestFull Api</h2>
@@ -41,7 +41,7 @@ const MySkils = () => {
       
            <h2>My SQL</h2>
            <div class="full">
-             <div class="progress Django"></div>
+             <div class="progress sql"></div>
            </div>
 
 
@@ -50,7 +50,7 @@ const MySkils = () => {
    <div class="skill-set2">
            <h2>React Js</h2>
            <div class="full">
-             <div class="progress figma"></div>
+             <div class="progress react"></div>
            </div>
      
            <h2>Next Js</h2>
@@ -65,12 +65,12 @@ const MySkils = () => {
 
            <h2>Tailwind & Bootstrap</h2>
            <div class="full">
-             <div class="progress wordpress"></div>
+             <div class="progress tailwind"></div>
            </div>
 
             <h2>GitHub</h2>
            <div class="full">
-             <div class="progress wordpress"></div>
+             <div class="progress git"></div>
            </div>
 
      
