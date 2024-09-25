@@ -3,7 +3,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import gallery01 from "../../images/Portfolio_7.jpg";
 import gallery02 from "../../images/MAIN.png";
 import gallery03 from "../../images/portfolio_3.jpg";
-import gallery04 from "../../images/portfolio_4.png";
+import gallery04 from "../../images/Chat_mockup_1.png";
 import gallery05 from "../../images/portfolio_5.png";
 
 import "./gallery.css";
@@ -13,7 +13,7 @@ const Gallery = () => {
     "https://gym-frontend-self.vercel.app/",
     "https://photography-tawny-mu.vercel.app/portfolio",
     "https://aravinth.pythonanywhere.com/add-expense",
-    "https://aravinthan-portfolio.vercel.app/",
+    "https://chat-point-2nkg.onrender.com/",
     "https://www.figma.com/proto/2Rw7G0PPW0hy8BclM7N5WZ?node-id=0-1&t=Lfk0N2VPlhf6Zywp-6",
 ,
   ];
