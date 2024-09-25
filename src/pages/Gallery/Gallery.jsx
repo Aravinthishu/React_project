@@ -3,7 +3,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import gallery01 from "../../images/Portfolio_7.jpg";
 import gallery02 from "../../images/MAIN.png";
 import gallery03 from "../../images/portfolio_3.jpg";
-import gallery04 from "../../images/Chat_mockup_1.png";
+import gallery04 from "../../images/Chat_mockup_2.png";
 import gallery05 from "../../images/portfolio_5.png";
 
 import "./gallery.css";
