@@ -78,24 +78,24 @@
   }
   
   .python{
-    width: 80%;
+    width: 90%;
     background: #F3C26B;
     animation: progress 0.8s linear;
   }
   
   .Django{
-    width: 80%;
+    width: 90%;
     background: #F3C26B;
     animation: progress 1s linear;
   }
   
-  .wordpress{
+  .git{
     width: 90%;
     background: #F3C26B;
     animation: progress 0.7s linear;
   }
   
-  .figma{
+  .react{
     width: 80%;
     background: #F3C26B;
     animation: progress 0.5s linear;
@@ -105,7 +105,7 @@
     background: #F3C26B;
     animation: progress 0.5s linear;
   }
-  .html{
+  .html, tailwind{
     width: 95%;
     background: #F3C26B;
     animation: progress 0.5s linear;
