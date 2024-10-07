@@ -60,22 +60,22 @@ const Contact = () => {
             <form className="form" onSubmit={handleSubmit}>
               <div className="col-md-12">
                 <div className="form-group">
-                  <input type="text" placeholder="Name" name="name" value={formData.name} onChange={handleChange} />
+                  <input type="text" placeholder="Name" name="name" value={formData.name} onChange={handleChange} required />
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="form-group">
-                  <input type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange} />
+                  <input type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange} required />
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="form-group">
-                  <input type="text" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} />
+                  <input type="text" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} required />
                 </div>
               </div>
               <div className="col-md-12">
                 <div className="form-group">
-                  <textarea placeholder="Your Message Here" name="message" value={formData.message} onChange={handleChange}></textarea>
+                  <textarea placeholder="Your Message Here" name="message" value={formData.message} onChange={handleChange} required ></textarea>
                 </div>
               </div>
               <button type="submit" value="send message" className="btn-one">HIRE ME</button>
