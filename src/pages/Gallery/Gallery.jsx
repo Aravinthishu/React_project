@@ -4,7 +4,7 @@ import gallery01 from "../../images/Portfolio_7.jpg";
 import gallery02 from "../../images/MAIN.png";
 import gallery03 from "../../images/ecom-mockup.jpg";
 import gallery04 from "../../images/Chat_mockup_2.png";
-import gallery05 from "../../images/portfolio-5.png";
+import gallery05 from "../../images/portfolio_5.png";
 
 import "./gallery.css";
 
