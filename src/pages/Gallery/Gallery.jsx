@@ -12,9 +12,9 @@ const Gallery = () => {
   const imageLinks = [
     "https://gym-frontend-self.vercel.app/",
     "https://photography-tawny-mu.vercel.app/portfolio",
-    "https://aravinth.pythonanywhere.com/add-expense",
+    "https://netflixo-8gin.onrender.com/",
     "https://chat-point-2nkg.onrender.com/",
-    "https://aravinth.pythonanywhere.com/",
+    "https://footwear-9hz4.onrender.com/",
 ,
   ];
 
