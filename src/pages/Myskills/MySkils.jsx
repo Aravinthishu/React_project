@@ -31,7 +31,7 @@ const MySkils = () => {
 
            <h2>FastAPI</h2>
            <div class="full">
-             <div class="progress mongodb"></div>
+             <div class="progress fastapi"></div>
            </div>
 
            <h2>RestFull Api</h2>

@@ -101,12 +101,18 @@
     animation: progress 0.5s linear;
   }
   .sql{
-    width: 75%;
+    width: 85%;
     background: #F3C26B;
     animation: progress 0.5s linear;
   }
-  .html, tailwind{
+  .html, .tailwind{
     width: 95%;
+    background: #F3C26B;
+    animation: progress 0.5s linear;
+  }
+
+  .fastapi{
+    width: 75%;
     background: #F3C26B;
     animation: progress 0.5s linear;
   }
