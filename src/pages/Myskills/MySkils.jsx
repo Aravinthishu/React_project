@@ -29,7 +29,7 @@ const MySkils = () => {
            </div>
           
 
-           <h2>MongoDB</h2>
+           <h2>FastAPI</h2>
            <div class="full">
              <div class="progress mongodb"></div>
            </div>
